@@ -1,3 +1,16 @@
+// toggle aside navbar
+const navItemToggler = document.querySelector(".nav-toggler");
+navItemToggler.addEventListener("click", () => {
+    document.querySelector(".aside").classList.toggle("open");
+})
+
+//hide aside navbar on scroll
+window.addEventListener("scroll", () => {
+    if (document.querySelector(".aside").classList.contains("open")) {
+        document.querySelector(".aside").classList.remove("open");
+    }
+})
+
 // toggle style switcher
 const styleSwitcherToggler = document.querySelector(".style-switcher-toggler");
 styleSwitcherToggler.addEventListener("click", () => {
@@ -37,4 +50,16 @@ window.addEventListener("load", () => {
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 })
+
+//set active navbar
+const navbar = document.querySelectorAll(".nav-item");
+const setActive = (navItem) => {
+    navbar.forEach(nav => {
+        if (navItem === nav.querySelector("a").getAttribute("title")) {
+            nav.querySelector("a").classList.add("active")
+        } else {
+            nav.querySelector("a").classList.remove("active")
+        }
+    })
+}
 

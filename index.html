@@ -1,467 +1,885 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supriya rani Dhal</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/color-1.css" title="color-1" />
+    <link
+      rel="stylesheet"
+      href="./styles/color-2.css"
+      class="alternate-style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/color-3.css"
+      class="alternate-style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/color-4.css"
+      class="alternate-style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/color-5.css"
+      class="alternate-style"
+      title="color-5"
+      disabled
+    />
+    <link rel="stylesheet" href="./styles/style-switcher.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="color-1.css"title="color-1">
-    <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled>
-    <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled>
-    <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled>
-    <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled>
-    <link rel="stylesheet" href="style-switcher.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
-
-<body class="">
+  <body class="">
     <div class="main-container">
-        <div class="aside">
-            <div class="logo">
-                <a href="#"><span>P</span>ortexa</a>
-            </div>
-            <div class="nav-toggler">
-                <span></span>
-            </div>
-            <ul class="nav">
-                <li class="nav-item"><a href="#home" title="nav-home" class="active" onclick="setActive('nav-home')"><i class="fa-solid fa-house"></i>Home</a></li>
-                <li class="nav-item"><a href="#about" title="nav-about" onclick="setActive('nav-about')"><i class="fa fa-user"></i>About</a></li>
-                <li class="nav-item"><a href="#service" title="nav-service" onclick="setActive('nav-service')"><i class="fa fa-list"></i>Services</a></li>
-                <li class="nav-item"><a href="#projects" title="nav-project" onclick="setActive('nav-project')"><i class="fa fa-briefcase"></i>Projects</a></li>
-                <li class="nav-item"><a href="#contact" title="nav-contact" onclick="setActive('nav-contact')"><i class="fa fa-comments"></i>Contact</a></li>
-            </ul>
+      <div class="aside">
+        <div class="logo" data-aos="fade-right" data-aos-duration="2000">
+          <a href="#"><span>P</span>ortexa</a>
         </div>
-        <div class="main-content">
-            <section class="home section" id="home">
-                <div class="container">
-                    <div class="row no-wrap">
-                        <div class="home-info padd-15">
-                            <h3 class="hello">
-                                Hii, my name is <div class="name">Supriya rani Dhal</div>
+        <div class="nav-toggler" data-aos="fade-right" data-aos-duration="2000">
+          <span></span>
+        </div>
+        <ul
+          class="nav"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-delay="50"
+        >
+          <li class="nav-item">
+            <a
+              href="#home"
+              title="nav-home"
+              class="active"
+              onclick="setActive('nav-home')"
+              ><i class="fa-solid fa-house"></i>Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#about" title="nav-about" onclick="setActive('nav-about')"
+              ><i class="fa fa-user"></i>About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#service"
+              title="nav-service"
+              onclick="setActive('nav-service')"
+              ><i class="fa fa-list"></i>Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#project"
+              title="nav-project"
+              onclick="setActive('nav-project')"
+              ><i class="fa fa-briefcase"></i>Projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#contact"
+              title="nav-contact"
+              onclick="setActive('nav-contact')"
+              ><i class="fa fa-comments"></i>Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="main-content">
+        <section class="home section" id="home">
+          <div class="container">
+            <div class="row no-wrap">
+              <div
+                class="home-info padd-15"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="2000"
+              >
+                <h3 class="hello">
+                  Hii, my name is
+                  <div class="name">Supriya rani Dhal</div>
+                </h3>
+                <h3 class="my-profession">
+                  I' m a <span id="typing">Web developer</span>
+                </h3>
+                <p>
+                  I'm a passionate and driven fresher in the world of web
+                  development, eager to make my mark in this dynamic field
+                </p>
+                <a href="#contact" class="btn hire-me" data-aos="zoom-in-up"
+                  >Hire Me</a
+                >
+              </div>
+              <div
+                class="home-img"
+                data-aos="fade-up-left"
+                data-aos-duration="2000"
+              >
+                <img src="assets/screenshots/portfolio.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row" data-aos="zoom-in">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row" data-aos="fade-right" data-aos-duration="2000">
+                  <div class="about-text padd-15">
+                    <h3>I'm Supriya rani Dhal</h3>
+                    <p>
+                      Hello and welcome to my project! I'm a passionate and
+                      driven fresher in the world of web development, eager to
+                      make my mark in this dynamic field. Armed with a strong
+                      foundation in programming languages like HTML, CSS, and
+                      JavaScript, I'm excited to embark on a journey of crafting
+                      beautiful and functional websites. My enthusiasm for
+                      learning and my commitment to staying updated with the
+                      latest technologies drive me to constantly refine my
+                      skills and tackle new challenges head-on. Through my
+                      dedication and creativity, I aim to deliver innovative
+                      solutions that not only meet but exceed client
+                      expectations. Join me as I embark on this exciting
+                      adventure, transforming ideas into captivating digital
+                      experiences, one line of code at a time.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row" data-aos="fade-down-right">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>13th march 2003</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age : <span>20</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>supriyadhal50@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Degree : <span>BTech CSE continue...</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>+91 8260 959 164</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Bhbaneswar</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15" data-aos="zoom-in-up">
+                        <a
+                          href="./assets/pdf/Supriyarani_Dhal_Resume.pdf"
+                          download="Supriyarani_Dhal_Resume"
+                          class="btn"
+                          >Download CV</a
+                        >
+                        <a href="#contact" class="btn hire-me">Hire Me</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row" data-aos="fade-down-left">
+                      <div class="skill-item padd-15">
+                        <h5>Node.js/Express</h5>
+                        <div class="skill-percent">86%</div>
+                        <div class="progress">
+                          <div
+                            class="progress-in width-1"
+                            style="width: 86%"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Next.js/TS</h5>
+                        <div class="skill-percent">66%</div>
+                        <div class="progress">
+                          <div
+                            class="progress-in width-2"
+                            style="width: 66%"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Python/PHP</h5>
+                        <div class="skill-percent">76%</div>
+                        <div class="progress">
+                          <div
+                            class="progress-in width-3"
+                            style="width: 76%"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>React</h5>
+                        <div class="skill-percent">96%</div>
+                        <div class="progress">
+                          <div
+                            class="progress-in width-4"
+                            style="width: 96%"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>HTML/CSS/JS</h5>
+                        <div class="skill-percent">100%</div>
+                        <div class="progress">
+                          <div
+                            class="progress-in width-5"
+                            style="width: 100%"
+                          ></div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Java for DSA</h5>
+                        <div class="skill-percent">100%</div>
+                        <div class="progress">
+                          <div
+                            class="progress-in width-6"
+                            style="width: 100%"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div
+                    class="education padd-15"
+                    data-aos="fade-down-right"
+                    data-aos-duration="2000"
+                  >
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2021 - 2025
                             </h3>
-                            <h3 class="my-profession">I' m a <span id="typing">Web developer</span></h3>
-                            <p>I'm a passionate and driven fresher in the world of web development, eager to make my mark in this dynamic field</p>
-                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                            <h4 class="timeline-title">
+                              BTech in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Currently in my third year of pursuing a
+                              Bachelor's degree in Computer Science and
+                              Engineering (CSE), I am passionate about exploring
+                              the intricate realms of technology and its
+                              applications. With a keen interest in coding,
+                              algorithms, and problem-solving, I am continuously
+                              honing my skills to innovate and contribute
+                              meaningfully to the field.
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2018 - 2020
+                            </h3>
+                            <h4 class="timeline-title">+2 in Science</h4>
+                            <p class="timeline-text">
+                              I completed my +2 Science from the Council of
+                              Higher Secondary Education (CHSE) board, where I
+                              focused on subjects like Physics, Chemistry,
+                              Information Technology, and Mathematics. With
+                              dedication and hard work, I achieved an impressive
+                              83% in my final exams.
+                            </p>
+                          </div>
                         </div>
-                        <div class="home-img padd-15">
-                            <img src="portfolio.jpeg" alt="">
-                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <div
+                    class="experience padd-15"
+                    data-aos="fade-down-left"
+                    data-aos-duration="2000"
+                  >
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2021 - 2025
+                            </h3>
+                            <h4 class="timeline-title">
+                              BTech in Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Currently in my third year of pursuing a
+                              Bachelor's degree in Computer Science and
+                              Engineering (CSE), I am passionate about exploring
+                              the intricate realms of technology and its
+                              applications. With a keen interest in coding,
+                              algorithms, and problem-solving, I am continuously
+                              honing my skills to innovate and contribute
+                              meaningfully to the field.
+                            </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2018 - 2020
+                            </h3>
+                            <h4 class="timeline-title">+2 in Science</h4>
+                            <p class="timeline-text">
+                              I completed my +2 Science from the Council of
+                              Higher Secondary Education (CHSE) board, where I
+                              focused on subjects like Physics, Chemistry,
+                              Information Technology, and Mathematics. With
+                              dedication and hard work, I achieved an impressive
+                              83% in my final exams.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </section>
-            <section class="about section" id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>About Me</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="about-content padd-15">
-                            <div class="row">
-                                <div class="about-text padd-15">
-                                    <h3>I'm Supriya rani Dhal</h3>
-                                    <p>Hello and welcome to my portfolio! I'm a passionate and driven fresher in the world of web development, eager to make my
-                                    mark in this dynamic field. Armed with a strong foundation in programming languages like HTML, CSS, and JavaScript, I'm
-                                    excited to embark on a journey of crafting beautiful and functional websites. My enthusiasm for learning and my
-                                    commitment to staying updated with the latest technologies drive me to constantly refine my skills and tackle new
-                                    challenges head-on. Through my dedication and creativity, I aim to deliver innovative solutions that not only meet but
-                                    exceed client expectations. Join me as I embark on this exciting adventure, transforming ideas into captivating digital
-                                    experiences, one line of code at a time.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="personal-info padd-15">
-                                    <div class="row">
-                                        <div class="info-item padd-15">
-                                            <p>Birthday : <span>13th march 2003</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Age : <span>20</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Email : <span>supriyadhal50@gmail.com</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Degree : <span>BTech CSE continue...</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Phone : <span>+91 8260 959 164</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>City : <span>Bhbaneswar</span></p>
-                                        </div>
-                                        <div class="info-item padd-15">
-                                            <p>Freelance : <span>Available</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
-                                            <a href="#contact" class="btn hire-me">Hire Me</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skills padd-15">
-                                    <div class="row">
-                                        <div class="skill-item padd-15">
-                                            <h5>HTML</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 96%;"></div>
-                                                <div class="skill-percent">96%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>CSS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 66%;"></div>
-                                                <div class="skill-percent">66%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>JS</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 86%;"></div>
-                                                <div class="skill-percent">86%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>React</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 96%;"></div>
-                                                <div class="skill-percent">96%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>Bootstrap</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
-                                                <div class="skill-percent">76%</div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item padd-15">
-                                            <h5>Tailwind</h5>
-                                            <div class="progress">
-                                                <div class="progress-in" style="width: 86%;"></div>
-                                                <div class="skill-percent">86%</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="education padd-15">
-                                    <h3 class="title">Education</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2021 - 2025
-                                                    </h3>
-                                                    <h4 class="timeline-title">BTech in Computer Science</h4>
-                                                    <p class="timeline-text">Currently in my third year of pursuing a Bachelor's degree in Computer Science and Engineering (CSE), I am passionate
-                                                    about exploring the intricate realms of technology and its applications. With a keen interest in coding, algorithms, and
-                                                    problem-solving, I am continuously honing my skills to innovate and contribute meaningfully to the field.</p>
-                                                </div>
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2018 - 2020
-                                                    </h3>
-                                                    <h4 class="timeline-title">+2 in Science</h4>
-                                                    <p class="timeline-text">I completed my +2 Science from the Council of Higher Secondary Education (CHSE) board, where I focused on subjects like
-                                                    Physics, Chemistry, Information Technology, and Mathematics. With dedication and hard work, I achieved an impressive 83% in my final
-                                                    exams.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="experience padd-15">
-                                    <h3 class="title">Experience</h3>
-                                    <div class="row">
-                                        <div class="timeline-box padd-15">
-                                            <div class="timeline shadow-dark">
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2021 - 2025
-                                                    </h3>
-                                                    <h4 class="timeline-title">BTech in Computer Science</h4>
-                                                    <p class="timeline-text">Currently in my third year of pursuing a Bachelor's degree in Computer Science
-                                                        and Engineering (CSE), I am passionate
-                                                        about exploring the intricate realms of technology and its applications. With a keen interest in
-                                                        coding, algorithms, and
-                                                        problem-solving, I am continuously honing my skills to innovate and contribute meaningfully to the
-                                                        field.</p>
-                                                </div>
-                                                <div class="timeline-item">
-                                                    <div class="circle-dot"></div>
-                                                    <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2018 - 2020
-                                                    </h3>
-                                                    <h4 class="timeline-title">+2 in Science</h4>
-                                                    <p class="timeline-text">I completed my +2 Science from the Council of Higher Secondary Education (CHSE)
-                                                        board, where I focused on subjects like
-                                                        Physics, Chemistry, Information Technology, and Mathematics. With dedication and hard work, I
-                                                        achieved an impressive 83% in my final
-                                                        exams.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="service section" id="service">
+          <div class="container">
+            <div class="row" data-aos="zoom-in">
+              <div class="section-title padd-15">
+                <h2>Services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div
+                class="service-item padd-15"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+              >
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-mobile-alt"></i>
+                  </div>
+                  <h4>Web developer</h4>
+                  <p>
+                    With a solid foundation in coding languages like HTML, CSS,
+                    and JavaScript, I'm eager to collaborate with clients to
+                    bring their visions to life online. Whether it's crafting
+                    sleek and responsive designs or diving into backend
+                    development to ensure seamless functionality, I'm committed
+                    to delivering high-quality, user-friendly websites that
+                    leave a lasting impression.
+                  </p>
                 </div>
-            </section>
-            <section class="service section" id="service">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Services</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-mobile-alt"></i>
-                                </div>
-                                <h4>Web developer</h4>
-                                <p>With a solid foundation in coding languages like HTML, CSS, and JavaScript, I'm eager to collaborate with clients to
-                                bring their visions to life online. Whether it's crafting sleek and responsive designs or diving into backend
-                                development to ensure seamless functionality, I'm committed to delivering high-quality, user-friendly websites that
-                                leave a lasting impression.</p>
-                            </div>
-                        </div>
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-code"></i>
-                                </div>
-                                <h4>Backend Manager</h4>
-                                <p>With a keen eye for detail and a commitment to optimizing backend systems, I thrive in crafting efficient, scalable
-                                solutions that power seamless user experiences. Leveraging my foundational knowledge and a hunger for continuous
-                                learning, I am dedicated to staying at the forefront of emerging technologies and best practices in the field.</p>
-                            </div>
-                        </div>
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-laptop-code"></i>
-                                </div>
-                                <h4>Database manager</h4>
-                                <p>With a passion for organizing and optimizing data systems, I am committed to ensuring seamless operations and efficient
-                                data handling. My adaptability and keen eye for detail allow me to quickly grasp new concepts and technologies, while my
-                                dedication to excellence drives me to continuously refine my skills.</p>
-                            </div>
-                        </div>
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-search"></i>
-                                </div>
-                                <h4>Problem Solver</h4>
-                                <p>I navigate the complexities with the precision of a seasoned sailor charting new waters. Armed with a deep understanding of Data Structures and Algorithms (DSA), I embark on each challenge with fervor and
-                                finesse.With a blend of creativity and analytical prowess, I thrive in dissecting problems and crafting innovative solutions
-                                that stand the test of scrutiny.</p>
-                            </div>
-                        </div>
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-bullhorn"></i>
-                                </div>
-                                <h4>Debugger</h4>
-                                <p>In the intricate world of coding, I shine as a meticulous debugger, unraveling complex knots of code with finesse and
-                                precision. Armed with a keen eye for detail and a knack for problem-solving, My methodical approach, coupled with a passion for untangling
-                                digital puzzles, ensures that no bug remains unconquered.</p>
-                            </div>
-                        </div>
-                        <div class="service-item padd-15">
-                            <div class="service-item-inner">
-                                <div class="icon">
-                                    <i class="fa fa-palette"></i>
-                                </div>
-                                <h4>Web developer</h4>
-                                <p>With a solid foundation in coding languages like HTML, CSS, and JavaScript, I'm eager to collaborate with
-                                    clients to bring their visions to life online. Whether it's crafting sleek and responsive designs or diving into
-                                    backend development to ensure seamless functionality, I'm committed to delivering high-quality, user-friendly
-                                    websites that leave a lasting impression.</p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div
+                class="service-item padd-15"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+              >
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-code"></i>
+                  </div>
+                  <h4>Backend Manager</h4>
+                  <p>
+                    With a keen eye for detail and a commitment to optimizing
+                    backend systems, I thrive in crafting efficient, scalable
+                    solutions that power seamless user experiences. Leveraging
+                    my foundational knowledge and a hunger for continuous
+                    learning, I am dedicated to staying at the forefront of
+                    emerging technologies and best practices in the field.
+                  </p>
                 </div>
-            </section>
-            <section class="project section" id="projects">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Projects</h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-heading padd-15">
-                            <h2>My Projects : </h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="project-item padd-15">
-                            <div class="project-item-inner shadow-dark">
-                                <div class="project-img">
-                                    <img src="/amazon-clone.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-item padd-15">
-                            <div class="project-item-inner shadow-dark">
-                                <div class="project-img">
-                                    <img src="/currency-converte.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-item padd-15">
-                            <div class="project-item-inner shadow-dark">
-                                <div class="project-img">
-                                    <img src="/stone paper scissor.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-item padd-15">
-                            <div class="project-item-inner shadow-dark">
-                                <div class="project-img">
-                                    <img src="/Screenshot 2024-04-26 201700.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-item padd-15">
-                            <div class="project-item-inner shadow-dark">
-                                <div class="project-img">
-                                    <img src="/Food-chef.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-item padd-15">
-                            <div class="project-item-inner shadow-dark">
-                                <div class="project-img">
-                                    <img src="/Netflix-gpt.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div
+                class="service-item padd-15"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+              >
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-laptop-code"></i>
+                  </div>
+                  <h4>Database manager</h4>
+                  <p>
+                    With a passion for organizing and optimizing data systems, I
+                    am committed to ensuring seamless operations and efficient
+                    data handling. My adaptability and keen eye for detail allow
+                    me to quickly grasp new concepts and technologies, while my
+                    dedication to excellence drives me to continuously refine my
+                    skills.
+                  </p>
                 </div>
-            </section>
-            <section class="contact section" id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="section-title padd-15">
-                            <h2>Contact Me</h2>
-                        </div>
-                    </div>
-                    <h3 class="contact-title padd-15">Have You any Questions ? </h3>
-                    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
-                    <div class="row">
-                        <div class="contact-info-item padd-15 ">
-                            <div class="icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <h4>Call Me On</h4>
-                            <p>+91 8260959164</p>
-                        </div>
-                        <div class="contact-info-item padd-15">
-                            <div class="icon">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                            <h4>Email</h4>
-                            <p>supriyadhal50@gmail.com</p>
-                        </div>
-                        <div class="contact-info-item padd-15">
-                            <div class="icon">
-                                <i class="fa fa-brands fa-github"></i>
-                            </div>
-                            <h4>Github</h4>
-                            <p>github.com/supriya626</p>
-                        </div>
-                        <div class="contact-info-item padd-15 padd-15">
-                            <div class="icon">
-                                <i class="fa fa-brands fa-linkedin"></i>
-                            </div>
-                            <h4>Linkedin</h4>
-                            <p>linkedin.com/in/supriyarani-dhal-961807231</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="name">
-                                    </div>
-                                </div>
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="email">
-                                    </div>
-                                </div>
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="subject">
-                                    </div>
-                                </div>
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" class="form-control" cols="30" rows="10" placeholder="message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <button class="btn">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div
+                class="service-item padd-15"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+              >
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                  <h4>Problem Solver</h4>
+                  <p>
+                    I navigate the complexities with the precision of a seasoned
+                    sailor charting new waters. Armed with a deep understanding
+                    of Data Structures and Algorithms (DSA), I embark on each
+                    challenge with fervor and finesse.With a blend of creativity
+                    and analytical prowess, I thrive in dissecting problems and
+                    crafting innovative solutions that stand the test of
+                    scrutiny.
+                  </p>
                 </div>
-            </section>
-        </div>
+              </div>
+              <div
+                class="service-item padd-15"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+              >
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-bullhorn"></i>
+                  </div>
+                  <h4>Debugger</h4>
+                  <p>
+                    In the intricate world of coding, I shine as a meticulous
+                    debugger, unraveling complex knots of code with finesse and
+                    precision. Armed with a keen eye for detail and a knack for
+                    problem-solving, My methodical approach, coupled with a
+                    passion for untangling digital puzzles, ensures that no bug
+                    remains unconquered.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="service-item padd-15"
+                data-aos="flip-right"
+                data-aos-duration="1000"
+              >
+                <div class="service-item-inner">
+                  <div class="icon">
+                    <i class="fa fa-palette"></i>
+                  </div>
+                  <h4>Web developer</h4>
+                  <p>
+                    With a solid foundation in coding languages like HTML, CSS,
+                    and JavaScript, I'm eager to collaborate with clients to
+                    bring their visions to life online. Whether it's crafting
+                    sleek and responsive designs or diving into backend
+                    development to ensure seamless functionality, I'm committed
+                    to delivering high-quality, user-friendly websites that
+                    leave a lasting impression.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <section class="project section" id="project">
+          <div class="container">
+            <div class="row">
+              <div class="project-heading padd-15">
+                <h2>Some practice projects</h2>
+              </div>
+            </div>
+            <div class="project-content">
+              <div data-aos="flip-up" class="project-item padd-15">
+                <img src="assets/screenshots/chat-app.png" alt="" />
+                <div class="project-item-inner shadow-dark">
+                  <h5>Chatter-Boxie</h5>
+                  <p>
+                    This application allows users to engage in real-time
+                        messaging with a sleek and intuitive design.
+                  </p>
+                  <div class="project-links">
+                    <a
+                        href="https://github.com/supriyarani-dhal/real-time-chat-"
+                        label="Github"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    <a href="https://chatter-boxie.onrender.com"
+                      ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </div>
+                  <ul class="project-tech-list">
+                      <li>Vite React</li>
+                      <li>Node JS</li>
+                      <li>Express</li>
+                      <li>Socket.io</li>
+                      <li>JWT</li>
+                    </ul>
+                </div>
+              </div>
+              <div data-aos="flip-up" class="project-item padd-15">
+                <img src="assets/screenshots/Food-chef.png" alt="" />
+                <div class="project-item-inner shadow-dark">
+                  <h5>Chef-Food</h5>
+                  <p>
+                    Food-Chef is a modern, user-friendly food e-commerce
+                        website built with cutting-edge web technologies to
+                        deliver an exceptional online shopping experience.
+                  </p>
+                  <div class="project-links">
+                    <a
+                        href="https://github.com/supriyarani-dhal/Food-Chef"
+                        label="Github"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    <a href="https://food-chef.netlify.app"
+                      ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </div>
+                  <ul class="project-tech-list">
+                      <li>Vite React</li>
+                      <li>Redux</li>
+                      <li>Tailwind css</li>
+                      <li>Swiggy api</li>
+                    </ul>
+                </div>
+              </div>
+              <div data-aos="flip-up" class="project-item padd-15">
+                <img src="./assets/screenshots/Netflix-gpt.png" alt="" />
+                <div class="project-item-inner shadow-dark">
+                  <h5>Netflix GPT</h5>
+                  <p>
+                    This project is a Netflix clone built with React, featuring
+                    a user-friendly interface for browsing, searching, and
+                    watching trailers of movies and shows
+                  </p>
+                  <div class="project-links">
+                    <a
+                        href="https://github.com/supriyarani-dhal/Netflix-GPT"
+                        label="Github"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    <a href="#"
+                      ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </div>
+                  <ul class="project-tech-list">
+                      <li>Vite React</li>
+                      <li>Tailwind css</li>
+                      <li>Redux</li>
+                      <li>Openai</li>
+                    </ul>
+                </div>
+              </div>
+              <div data-aos="flip-up" class="project-item padd-15">
+                <img src="./assets/screenshots/amazon-clone.png" alt="" />
+                <div class="project-item-inner shadow-dark">
+                  <h5>Amazon Clone</h5>
+                  <p>
+                    A simplified Amazon web page clone built with HTML, CSS, and
+                    JavaScript.
+                  </p>
+                  <div class="project-links">
+                    <a
+                        href="https://github.com/supriyarani-dhal/amazon-clone-project"
+                        label="Github"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    <a href="https://supriyarani-dhal.github.io/amazon-clone-project/"
+                      ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </div>
+                  <ul class="project-tech-list">
+                      <li>Vite React</li>
+                      <li>Tailwind css</li>
+                      <li>Redux</li>
+                      <li>Openai</li>
+                    </ul>
+                </div>
+              </div>
+              <div data-aos="flip-up" class="project-item padd-15 d-none">
+                <img
+                  src="https://camo.githubusercontent.com/d34c7440fc32c08c629877487619b6723c8f1da1f5ca8025d62339360b7af260/68747470733a2f2f736861726b636f6d2e73652f6170702f75706c6f6164732f323032312f30322f4c6f6767612d3135333678313134342e706e67"
+                  alt=""
+                />
+                <div class="project-item-inner shadow-dark">
+                  <h5>Streamify</h5>
+                  <p>
+                    this is a video streaming project and it has a lot of tech stacks are used.
+                    </p>
+                    <div class="project-links">
+                    <a
+                        href="https://github.com/supriyarani-dhal/backend?tab=readme-ov-file"
+                        label="Github"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    <a href="#"
+                      ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </div>
+                  <ul class="project-tech-list">
+                      <li>Node js</li>
+                      <li>Express</li>
+                      <li>Mongodb</li>
+                      <li>cookie-parser</li>
+                      <li>mongoose-aggregate</li>
+                      <li>bcrypt | jwt</li>
+                    </ul>
+                </div>
+              </div>
+              <div data-aos="flip-up" class="project-item padd-15 d-none">
+                <img src="./assets/screenshots/currency-converte.png" alt="" />
+                <div class="project-item-inner shadow-dark">
+                  <h5>Currency Converter</h5>
+                  <p>
+                    A simple and responsive currency converter built with HTML,
+                    CSS, and JavaScript.
+                  </p>
+                  <div class="project-links">
+                    <a
+                        href="https://github.com/supriyarani-dhal/js-projects/tree/main/currency-converter"
+                        label="Github"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    <a href="#"
+                      ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </div>
+                  <ul class="project-tech-list">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                    </ul>
+                </div>
+              </div>
+              <div data-aos="flip-up" class="project-item padd-15 d-none">
+                <img
+                  src="./assets/screenshots/stone paper scissor.png"
+                  alt=""
+                />
+                <div class="project-item-inner shadow-dark">
+                  <h5>Stone Paper scissor</h5>
+                  <p>
+                    A simple Stone-Paper-Scissors game built with HTML, CSS, and
+                    JavaScript.
+                  </p>
+                  <div class="project-links">
+                    <a
+                        href="https://github.com/supriyarani-dhal/js-projects/tree/main/stone-paper-scissor"
+                        label="Github"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    <a href="#"
+                      ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </div>
+                  <ul class="project-tech-list">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                    </ul>
+                </div>
+              </div>
+              <div data-aos="flip-up" class="project-item padd-15 d-none">
+                <img
+                  src="./assets/screenshots/Screenshot 2024-04-26 201700.png"
+                  alt=""
+                />
+                <div class="project-item-inner shadow-dark">
+                  <h5>Tic tac Toe</h5>
+                  <p>
+                    A simple Tic-Tac-Toe game built with HTML, CSS, and
+                    JavaScript.
+                    </p>
+                    <div class="project-links">
+                    <a
+                        href="https://github.com/supriyarani-dhal/js-projects/tree/main/tic-tac-toe"
+                        label="Github"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                    <a href="#"
+                      ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                    ></a>
+                  </div>
+                  <ul class="project-tech-list">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                    </ul>
+                </div>
+              </div>
+              <button id="toggleBtn" class="btn">Show More</button>
+            </div>
+          </div>
+        </section>
+        <section class="contact section" id="contact">
+          <div class="container" data-aos="zoom-in-up"
+          data-aos-duration="2000">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <h3 class="contact-title padd-15">Have You any Questions ?</h3>
+            <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+            <div class="row">
+              <a class="contact-info-item padd-15" href="#">
+                <div class="icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <h4>Call Me On</h4>
+                <p>+91 8260959164</p>
+              </a>
+              <a
+                href="mailto:supriyadhal50@gmail.com"
+                class="contact-info-item padd-15"
+              >
+                <div class="icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <h4>Email</h4>
+                <p>supriyadhal50@gmail.com</p>
+              </a>
+              <a
+                href="https://github.com/supriyarani-dhal"
+                class="contact-info-item padd-15"
+              >
+                <div class="icon">
+                  <i class="fa fa-brands fa-github"></i>
+                </div>
+                <h4>Github</h4>
+                <p>github.com/supriyarani-dhal</p>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/supriyarani-dhal-961807231/"
+                class="contact-info-item padd-15 padd-15"
+              >
+                <div class="icon">
+                  <i class="fa fa-brands fa-linkedin"></i>
+                </div>
+                <h4>Linkedin</h4>
+                <p>linkedin.com/in/supriyarani-dhal-961807231</p>
+              </a>
+            </div>
+            <div class="row">
+              <div class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="name"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="email"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="subject"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        name=""
+                        class="form-control"
+                        cols="30"
+                        rows="10"
+                        placeholder="message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <button class="btn">Send Message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
 
     <div class="style-switcher">
-        <div class="style-switcher-toggler s-icon">
-            <i class="fas fa-cog fa-spin"></i>
-        </div>
-        <div class="day-night s-icon">
-            <i class="fas "></i>
-        </div>
-        <h4>Theme Colors</h4>
-        <div class="colors">
-            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
-            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
-            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-        </div>
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
     </div>
 
     <script src="style-switcher.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
-        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="toggle-button.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- Setup and start animation! -->
     <script>
-        var typed = new Typed('#typing', {
-            strings: ['','<i>Full-Stack</i> Web Developer.', 'Problem Solver.', 'App Developer.'],
-            typeSpeed: 50,
-            backSpeed:60,
-            loop:true
-        });
+      var typed = new Typed("#typing", {
+        strings: [
+          "",
+          "<i>Full-Stack</i> Web Developer.",
+          "Problem Solver.",
+          "App Developer.",
+        ],
+        typeSpeed: 50,
+        backSpeed: 60,
+        loop: true,
+      });
     </script>
-</body>
-
+  </body>
 </html>
